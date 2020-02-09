@@ -1,0 +1,21 @@
+/* Styling for DC_Blog */
+
+body {
+    background-color: #f3f3f3;
+    color: #4d5558;
+}
+
+#header-logo {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    padding: 5px;
+    
+}
+
+#headerH1 {
+    position: relative;
+    margin-left: 85px;
+   
+
+}

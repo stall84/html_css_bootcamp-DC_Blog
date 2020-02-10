@@ -6,16 +6,37 @@ body {
 }
 
 #header-logo {
-    position: absolute;
-    width: 0px;
+    float: left;
+    width: 50px;
     height: 0px;
     padding: 5px;
+    margin-top: 15px;
     
 }
 
-#headerH1 {
-    position: relative;
-    margin-left: 85px;
-   
+#header-logo>img {
+    width: 70px;
 
+}
+
+#headerH1 {
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 85px;
+
+   
+}
+
+#header-menu {
+    float: left;
+}
+
+#header-menu>ul {
+    list-style-type: none;
+}
+
+footer {
+    clear: both;
 }

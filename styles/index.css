@@ -5,28 +5,61 @@ body {
     color: #4d5558;
 }
 
+#logo-header {
+    display: inline-block;
+    width: 49%;
+    /*border: 3px dashed black;*/
+}
+
 #logo-header>p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: lighter;
+    width: 100%;
 }
 
 #logo-header>p>img {
     height: 23px;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 5%;
+    margin-left: 10px;
     margin-right: 10px;
     
 }
 
 #header-menu {
     float: right;
+    width: 49%;
+    margin-top: 5%;
+    /*border: 3px dashed black;*/
+    
 }
 
 #header-menu>ul {
     list-style-type: none;
+    margin-left: 50px;
+}
+
+#header-menu>ul>li {
+    display: inline;
+    margin-right: 10px;
+    padding: 20px;
 }
 
 footer {
     clear: both;
+}
+
+#footer-menu {
+    display: inline-block;
+    width: 49%;
+}
+
+#footer-menu>ul {
+    list-style-type: none;
+  
+}
+
+#footer-menu>ul>li {
+    display: inline;
+    padding: 20px;
 }

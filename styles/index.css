@@ -20,7 +20,7 @@ body {
 
 #logo-header>p>img {
     height: 23px;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -29,7 +29,7 @@ body {
 #header-menu {
     float: right;
     width: 49%;
-    margin-top: 5%;
+    margin-top: 3%;
     /*border: 3px dashed black;*/
     
 }
@@ -43,6 +43,14 @@ body {
     display: inline;
     margin-right: 10px;
     padding: 20px;
+}
+
+#h1-title {
+    font-family: 'Arial Narrow', Arial;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 footer {

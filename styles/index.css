@@ -5,17 +5,69 @@ body {
     color: #4d5558;
 }
 
-#header-logo {
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    padding: 5px;
+#logo-header {
+    display: inline-block;
+    width: 49%;
+    /*border: 3px dashed black;*/
+}
+
+#logo-header>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    width: 100%;
+}
+
+#logo-header>p>img {
+    height: 23px;
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
-#headerH1 {
-    position: relative;
-    margin-left: 85px;
-   
+#header-menu {
+    float: right;
+    width: 49%;
+    margin-top: 3%;
+    /*border: 3px dashed black;*/
+    
+}
 
+#header-menu>ul {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+#header-menu>ul>li {
+    display: inline;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+#h1-title {
+    font-family: 'Arial Narrow', Arial;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+}
+
+#footer-menu {
+    display: inline-block;
+    width: 49%;
+}
+
+#footer-menu>ul {
+    list-style-type: none;
+  
+}
+
+#footer-menu>ul>li {
+    display: inline;
+    padding: 20px;
 }
